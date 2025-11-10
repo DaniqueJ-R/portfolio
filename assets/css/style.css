@@ -31,15 +31,29 @@ body {
 }
 
 html[data-theme="light"] body {
-  background: #ffa8c5;
-  color: #1a0d1f;
+  background: #f3f0f1;
+  color: #189b94;
   transition: background-color 1s;
+
+    --bg-primary: #ffffff;
+  --bg-secondary: #d9ebeb;
+  --bg-card: #c3e7e2;
+  --accent-pink: #189b94;
+  --accent-pink-light: #84ddd9;
+  --accent-purple: #c77dff;
+  --text-primary: #f8f9fa;
+  --text-secondary: #e0b3e5;
+  --shadow: rgba(255, 107, 157, 0.3);
 }
 
-html[data-theme="dark"] body {
-  background: #1a0d1f ;
-  color: #ffa8c5 ;
-  transition: background-color 1s;
+/* Toggle Button colour */
+.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
+    fill: red !important;
+}
+
+.sun-and-moon > :is(.moon, .sun) {
+    fill: blue !important;
+;
 }
 
 .hidden {
