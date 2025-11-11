@@ -18,6 +18,18 @@
   --shadow: rgba(255, 107, 157, 0.3);
 }
 
+:root {
+  --bg-primary: #1a0d1f;
+  --bg-secondary: #2a1a2e;
+  --bg-card: #3d2645;
+  --accent-pink: #e12885;
+  --accent-pink-light: #ffa8c5;
+  --accent-purple: #c77dff;
+  --text-primary: #f8f9fa;
+  --text-secondary: #e0b3e5;
+  --shadow: rgba(255, 107, 157, 0.3);
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(
@@ -32,28 +44,49 @@ body {
 
 html[data-theme="light"] body {
   background: #f3f0f1;
-  color: #189b94;
   transition: background-color 1s;
-
-    --bg-primary: #ffffff;
+  --bg-primary: #ffffff;
   --bg-secondary: #d9ebeb;
   --bg-card: #c3e7e2;
-  --accent-pink: #189b94;
-  --accent-pink-light: #84ddd9;
-  --accent-purple: #c77dff;
-  --text-primary: #f8f9fa;
-  --text-secondary: #e0b3e5;
-  --shadow: rgba(255, 107, 157, 0.3);
+  --accent-pink: #137a7f;
+  --accent-pink-light: #86cecb;
+  --accent-purple: #073d3d;
+  --text-primary: #101112;
+  --text-secondary: #252c2c;
+  --shadow: rgba(107, 250, 255, 0.3);
 }
 
 /* Toggle Button colour */
-.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
-    fill: red !important;
+html[data-theme="light"] .theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
+    fill: var(--accent-purple) !important;
 }
 
-.sun-and-moon > :is(.moon, .sun) {
-    fill: blue !important;
-;
+html[data-theme="light"]  .sun-and-moon > :is(.moon, .sun), .sun-and-moon > .sun-beams {
+    fill: var(--accent-pink) !important;
+}
+
+html[data-theme="light"] .sun-and-moon > .sun-beams {
+    stroke: var(--accent-purple) !important;
+}
+
+html[data-theme="dark"] .theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
+    fill: var(--accent-pink-light) !important;
+}
+
+html[data-theme="dark"]  .sun-and-moon > :is(.moon, .sun), .sun-and-moon > .sun-beams {
+    fill: var(--accent-pink) !important;
+}
+
+html[data-theme="dark"] .sun-and-moon > .sun-beams {
+    stroke: var(--accent-pink) !important;
+}
+
+html[data-theme="light"] .tech-badge {
+  color: var(--bg-secondary);
+}
+
+html[data-theme="dark"] .tech-badge {
+  color: var(--bg-primary);
 }
 
 .hidden {
@@ -71,10 +104,18 @@ header {
   padding: 2rem 0;
   position: sticky;
   top: 0;
-  background: rgba(26, 13, 31, 0.95);
+  background: rgba(176, 223, 224, 0.95);
   backdrop-filter: blur(10px);
   z-index: 100;
   border-bottom: 2px solid var(--accent-pink);
+}
+
+html[data-theme="light"] header {
+  background: rgba(176, 223, 224, 0.95);
+}
+
+html[data-theme="dark"] header {
+  background: rgba(26, 13, 31, 0.95);
 }
 
 nav {
