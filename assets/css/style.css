@@ -1,4 +1,5 @@
 @import "https://unpkg.com/open-props/easings.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+HU:wght@100..400&display=swap');
 
 * {
   margin: 0;
@@ -16,22 +17,12 @@
   --text-primary: #f8f9fa;
   --text-secondary: #e0b3e5;
   --shadow: rgba(255, 107, 157, 0.3);
-}
-
-:root {
-  --bg-primary: #1a0d1f;
-  --bg-secondary: #2a1a2e;
-  --bg-card: #3d2645;
-  --accent-pink: #e12885;
-  --accent-pink-light: #ffa8c5;
-  --accent-purple: #c77dff;
-  --text-primary: #f8f9fa;
-  --text-secondary: #e0b3e5;
-  --shadow: rgba(255, 107, 157, 0.3);
+  --primary-font: "Nunito", serif;
+  --secondary-font: "Kiwi Maru", serif;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--primary-font);
   background: linear-gradient(
     135deg,
     var(--bg-primary) 0%,
@@ -40,6 +31,10 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--secondary-font);
 }
 
 html[data-theme="light"] body {
@@ -133,6 +128,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-family: var(--secondary-font);
 }
 
 .nav-links {
@@ -241,6 +237,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  height: 72px;
 }
 
 .hero .subtitle {
@@ -296,6 +293,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  height: 59px;
 }
 
 .skills-grid {
