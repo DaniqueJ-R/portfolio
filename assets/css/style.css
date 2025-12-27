@@ -45,10 +45,10 @@ html[data-theme="light"] body {
   --bg-card: #c3e7e2;
   --accent-pink: #137a7f;
   --accent-pink-light: #86cecb;
-  --accent-purple: #073d3d;
+  --accent-purple: hsl(180, 79%, 13%);
   --text-primary: #101112;
   --text-secondary: #252c2c;
-  --shadow: rgba(107, 250, 255, 0.3);
+  --shadow: rgba(21, 62, 63, 0.3);
 }
 
 /* Toggle Button colour */
