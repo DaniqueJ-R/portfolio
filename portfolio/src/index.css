@@ -142,16 +142,23 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   font-weight: 500;
-.nav-links a:hover {
-  color: var(--accent-pink);
+}
+
+svg, button.theme-toggle {
+  padding: 0;
+  line-height: 0;
+  overflow: visible;
+  background: none;
+  border: none;
 }
 
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center;
 }
-  transform-origin: center;
-}
 
+.nav-links a:hover {
+  color: var(--accent-pink);
+}
 .sun-and-moon > :is(.moon, .sun) {
   fill: var(--icon-fill);
 }
@@ -492,4 +499,10 @@ footer {
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+.contact-tag{
+  color: var(--text-secondary); 
+  max-width: 600px; 
+  margin: 0 auto;
 }
