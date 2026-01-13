@@ -152,6 +152,10 @@ svg, button.theme-toggle {
   border: none;
 }
 
+#about, #skills, #projects, #contact {
+  scroll-margin-top: 80px;
+}
+
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center;
 }

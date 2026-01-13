@@ -1,15 +1,9 @@
-import { useId } from 'react';
 
 export default function Main() {
-  const aboutId = useId();
-  const skillsId = useId();
-  const projectsId = useId();
-  const contactId = useId();
-
 
   return (
     <main>
-        <section id={aboutId} className="hero">
+        <section id="about" className="hero">
             <div className="container">
                 <h1>Danique Jones-Rhule</h1>
                 <p className="subtitle">Full Stack Developer | Python, Django, JavaScript</p>
@@ -26,7 +20,7 @@ export default function Main() {
             </div>
         </section>
 
-        <section id={skillsId} className="skills">
+        <section id="skills" className="skills">
             <div className="container">
                 <h2 className="section-title">Technical Skills</h2>
                 <div className="skills-grid">
@@ -63,13 +57,15 @@ export default function Main() {
                         <h3>Currently Learning</h3>
                         <div className="skill-tags">
                             <span className="skill-tag">React</span>
+                            <span className="skill-tag">Typescript</span>
+                            <span className="skill-tag">Tailwind</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id={projectsId} className="projects">
+        <section id="projects" className="projects">
             <div className="container">
                 <h2 className="section-title">Portfolio Projects</h2>
                 <div className="projects-grid">
@@ -207,7 +203,7 @@ This project will be rebuilt in React in a future update.
             </div>
         </section>
 
-        <section id={contactId} className="contact">
+        <section id="contact" className="contact">
             <div className="container">
                 <h2 className="section-title">Let's Connect</h2>
                 

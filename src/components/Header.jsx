@@ -4,13 +4,13 @@ function Header() {
   return (
   <header>
         <nav className="container">
-            <div className="logo">DJ-R</div>
+            <div className="logo">Danique's Portfolio</div>
             <ul className="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="./src/assets\media\Danique Jones Rhule - Junior Developer CV.pdf" rel='noopener' target="_blank">Resume</a></li>
+                <li><a href="src\assets\media\Danique Jones Rhule - Junior Developer CV.pdf" rel='noopener' target="_blank">Resume</a></li>
                 <li>
                                         <button type="button"  className="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto"
                         aria-live="polite">
