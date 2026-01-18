@@ -9,6 +9,16 @@ export default [
         title: "Little Library",
         tech: ['Bootstrap', 'Stripe API', 'PostgreSQL', 'JavaScript', 'Python', 'Django']
     },
+        {
+        id: 8,
+        link: {
+            git: "https://github.com/DaniqueJ-R/portfolio",
+            live: "https://daniques-portfolio.netlify.app/"
+        },
+        title: "Personal Portfolio",
+        text: "A portfolio displaying all my apps and sites, showing more about my technical skills and stack. Initally created with Vanilla JS but migrated to React for efficiency.",
+        tech: ['Bootstrap', 'React', 'JavaScript', 'HTML5', 'CSS3']
+    },
     {
         id: 2, 
         link: {
@@ -69,5 +79,6 @@ export default [
         text: "Collaborated with a remote team of developers to build and deploy a Halloween-themed web application in 5 days using agile methodology. Team project demonstrating collaborative coding, version control, and rapid deployment skills.",
         tech: ['Bootstrap', 'Git', 'JavaScript', 'Python', 'Django']
     },
+
        
 ]

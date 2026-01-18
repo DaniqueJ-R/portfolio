@@ -31,7 +31,7 @@ export default function Main() {
                             <span className="skill-tag">CSS3</span>
                             <span className="skill-tag">JavaScript</span>
                             <span className="skill-tag">Bootstrap</span>
-                            <span className="skill-tag">jQuery</span>
+                            <span className="skill-tag">React</span>
                         </div>
                     </div>
                     <div className="skill-category">
