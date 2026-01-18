@@ -56,7 +56,6 @@ export default function Main() {
                     <div className="skill-category">
                         <h3>Currently Learning</h3>
                         <div className="skill-tags">
-                            <span className="skill-tag">React</span>
                             <span className="skill-tag">Typescript</span>
                             <span className="skill-tag">Tailwind</span>
                         </div>
