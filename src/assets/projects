@@ -13,7 +13,7 @@ export default [
         id: 8,
         link: {
             git: "https://github.com/DaniqueJ-R/portfolio",
-            live: "https://daniques-portfolio.netlify.app/"
+            live: "https://daniques-portfolio.vercel.app/"
         },
         title: "Personal Portfolio",
         text: "A portfolio displaying all my apps and sites, showing more about my technical skills and stack. Initally created with Vanilla JS but migrated to React for efficiency.",

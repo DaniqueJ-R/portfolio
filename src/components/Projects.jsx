@@ -14,7 +14,7 @@ export default function Projects() {
                             <h3>{item.title}</h3>
                             <div className="project-links">
                                 <a href={item.link.git} rel='noopener' target="_blank" className="project-link">View Code</a>
-                                <a href={item.link.live} className="project-link">Live Demo</a>
+                                <a href={item.link.live} target="_blank"  className="project-link">Live Demo</a>
                             </div>
                         </div>
                         <p className="project-description">{item.text}</p>
