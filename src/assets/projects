@@ -10,7 +10,7 @@ export default [
         tech: ['Bootstrap', 'Stripe API', 'PostgreSQL', 'JavaScript', 'Python', 'Django']
     },
         {
-        id: 8,
+        id: 2,
         link: {
             git: "https://github.com/DaniqueJ-R/portfolio",
             live: "https://daniques-portfolio.vercel.app/"
@@ -20,7 +20,7 @@ export default [
         tech: ['Bootstrap', 'React', 'JavaScript', 'HTML5', 'CSS3']
     },
     {
-        id: 2, 
+        id: 3, 
         link: {
             git: "https://github.com/DaniqueJ-R/chef-claude",
             live: "https://chef-claude-app-mocha.vercel.app/"
@@ -30,7 +30,7 @@ export default [
         tech: ['React','JavaScript', 'HTML5', 'CSS3']
     },
         {
-        id: 8, 
+        id: 4, 
         link: {
             git: "https://github.com/DaniqueJ-R/quiz",
             live: "https://daniquej-r.github.io/quiz/"
@@ -40,17 +40,7 @@ export default [
         tech: ['JavaScript', 'HTML5', 'CSS3']
     },
     {
-        id: 3,
-        link: {
-            git: "https://github.com/DaniqueJ-R/milestone_4",
-            live: "https://little-libraries-5596411363a4.herokuapp.com/"
-        },
-        text: "A web app that helps readers track, review, and organize books into personalized shelves, making reading social and fun. Features user authentication, CRUD operations for book management, custom shelving system, and secure payment processing via Stripe API.",
-        title: "Little Library",
-        tech: ['Bootstrap', 'Stripe API', 'PostgreSQL', 'JavaScript', 'Python', 'Django']
-    },
-    {
-        id: 4,
+        id: 5,
         link: {
             git: "https://github.com/DaniqueJ-R/to-do-list",
             live: "https://daniquej-r.github.io/to-do-list/"
@@ -60,7 +50,7 @@ export default [
         tech: ['HTML5', 'CSS3', 'JavaScript',]
     },
     {
-        id: 5,
+        id: 6,
         link: {
             git: "https://github.com/DaniqueJ-R/milestone_proj_3",
             live: "https://take-a-breath-a26c57655e5e.herokuapp.com/"
@@ -70,7 +60,7 @@ export default [
         tech: ['Bootstrap','JavaScript', 'Python', 'Django']
     },                    
     {
-        id: 6,
+        id: 7,
         link: {
             git: "https://github.com/DaniqueJ-R/Milestone-Proj-2",
             live: "https://daniquej-r.github.io/Milestone-Proj-2/index.html"
@@ -80,7 +70,7 @@ export default [
         tech: ['HTML5', 'CSS3', 'Google Maps API', 'JavaScript', 'Google Places API']
     },
     {
-        id: 7,
+        id: 8,
         link: {
             git: "https://github.com/judewoolls/HalloweenHackathon",
             live: "https://halloweenhackathon-aaa7ba8be0f6.herokuapp.com/"
