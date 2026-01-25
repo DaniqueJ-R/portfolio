@@ -23,9 +23,9 @@ export default [
         id: 3, 
         link: {
             git: "https://github.com/DaniqueJ-R/chef-claude",
-            live: "https://chef-claude-app-mocha.vercel.app/"
+            live: "https://chef-claude-proj.vercel.app/"
         },
-        text: "",
+        text: "A React web app that transforms your available ingredients into custom recipes using AI. Enter any ingredients you have on hand, and after adding four, Claude AI generates a complete recipe tailored to what's in your kitchen. Built with React, CSS, and integrated with the Anthropic API for intelligent recipe creation.",
         title: "Chef Claude (In Progress)",
         tech: ['React','JavaScript', 'HTML5', 'CSS3']
     },
