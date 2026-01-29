@@ -8,6 +8,35 @@ export default [
         text: "A web app that helps readers track, review, and organize books into personalized shelves, making reading social and fun. Features user authentication, CRUD operations for book management, custom shelving system, and secure payment processing via Stripe API.",
         title: "Little Library",
         tech: ['Bootstrap', 'Stripe API', 'PostgreSQL', 'JavaScript', 'Python', 'Django']
+    },    {
+        id: 3, 
+        link: {
+            git: "https://github.com/DaniqueJ-R/chef-claude",
+            live: "https://chef-claude-proj.vercel.app/"
+        },
+        text: "A React web app that transforms your available ingredients into custom recipes using AI. Enter any ingredients you have on hand, and after adding four, Claude AI generates a complete recipe tailored to what's in your kitchen. Built with React, CSS, and integrated with the Anthropic API for intelligent recipe creation.",
+        title: "Chef Claude",
+        tech: ['React','JavaScript', 'HTML5', 'CSS3']
+    },
+        {
+        id: 6,
+        link: {
+            git: "https://github.com/DaniqueJ-R/milestone_proj_3",
+            live: "https://take-a-breath-a26c57655e5e.herokuapp.com/"
+        },
+        title: "Take A Breath",
+        text: "A minimalist web app that lets users share and receive anonymous notes of kindness, offering a simple, calming space for positivity. Full-stack application with Django backend handling CRUD operations for anonymous messaging.",
+        tech: ['Bootstrap','JavaScript', 'Python', 'Django']
+    },  
+        {
+        id: 8,
+        link: {
+            git: "https://github.com/judewoolls/HalloweenHackathon",
+            live: "https://halloweenhackathon-aaa7ba8be0f6.herokuapp.com/"
+        },
+        title: "Halloween Hackathon",
+        text: "Collaborated with a remote team of developers to build and deploy a Halloween-themed web application in 5 days using agile methodology. Team project demonstrating collaborative coding, version control, and rapid deployment skills.",
+        tech: ['Bootstrap', 'Git', 'JavaScript', 'Python', 'Django']
     },
         {
         id: 2,
@@ -18,16 +47,6 @@ export default [
         title: "Personal Portfolio",
         text: "A portfolio displaying all my apps and sites, showing more about my technical skills and stack. Initally created with Vanilla JS but migrated to React for efficiency.",
         tech: ['Bootstrap', 'React', 'JavaScript', 'HTML5', 'CSS3']
-    },
-    {
-        id: 3, 
-        link: {
-            git: "https://github.com/DaniqueJ-R/chef-claude",
-            live: "https://chef-claude-proj.vercel.app/"
-        },
-        text: "A React web app that transforms your available ingredients into custom recipes using AI. Enter any ingredients you have on hand, and after adding four, Claude AI generates a complete recipe tailored to what's in your kitchen. Built with React, CSS, and integrated with the Anthropic API for intelligent recipe creation.",
-        title: "Chef Claude (In Progress)",
-        tech: ['React','JavaScript', 'HTML5', 'CSS3']
     },
         {
         id: 4, 
@@ -49,16 +68,7 @@ export default [
         title: "To-do list",
         tech: ['HTML5', 'CSS3', 'JavaScript',]
     },
-    {
-        id: 6,
-        link: {
-            git: "https://github.com/DaniqueJ-R/milestone_proj_3",
-            live: "https://take-a-breath-a26c57655e5e.herokuapp.com/"
-        },
-        title: "Take A Breath",
-        text: "A minimalist web app that lets users share and receive anonymous notes of kindness, offering a simple, calming space for positivity. Full-stack application with Django backend handling CRUD operations for anonymous messaging.",
-        tech: ['Bootstrap','JavaScript', 'Python', 'Django']
-    },                    
+              
     {
         id: 7,
         link: {
@@ -69,16 +79,7 @@ export default [
         title: "Roamly",
         tech: ['HTML5', 'CSS3', 'Google Maps API', 'JavaScript', 'Google Places API']
     },
-    {
-        id: 8,
-        link: {
-            git: "https://github.com/judewoolls/HalloweenHackathon",
-            live: "https://halloweenhackathon-aaa7ba8be0f6.herokuapp.com/"
-        },
-        title: "Halloween Hackathon",
-        text: "Collaborated with a remote team of developers to build and deploy a Halloween-themed web application in 5 days using agile methodology. Team project demonstrating collaborative coding, version control, and rapid deployment skills.",
-        tech: ['Bootstrap', 'Git', 'JavaScript', 'Python', 'Django']
-    },
+
 
        
 ]
