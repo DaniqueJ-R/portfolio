@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
         <div className="container">
-            <p>&copy; Made with 💖 by Danique. Built with HTML, CSS & JavaScript.</p>
+            <p>&copy; Made with 💖 by Danique. Built with HTML, CSS, React & JavaScript.</p>
         </div>
     </footer>
   )
