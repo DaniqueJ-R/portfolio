@@ -10,7 +10,7 @@ export default function Contact () {
                 <div className="contact-info">
                     <div className="contact-item">
                         <strong>Email</strong><br />
-                        <a href="mailto:daniquejr18@gmail.com">daniquejr18@gmail.com</a>
+                        <a href="mailto:daniquejonesrhule@gmail.com">daniquejonesrhule@gmail.com</a>
                     </div>
                     <div className="contact-item">
                         <strong>Phone</strong><br />
