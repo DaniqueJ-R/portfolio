@@ -14,7 +14,7 @@ export default function Contact () {
                     </div>
                     <div className="contact-item">
                         <strong>Phone</strong><br />
-                        <a href="tel:07459517418">07459-517-418</a>
+                        <a href="tel:07459517418">Contact Me</a>
                     </div>
                     <div className="contact-item">
                         <strong>Location</strong><br />
